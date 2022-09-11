@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Open Cart Test suite]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="FireFox test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC_002_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_Login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_002_Login -->
+    </classes>
+  </test> <!-- FireFox test(failed) -->
+</suite> <!-- Failed suite [Open Cart Test suite] -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Open Cart Test suite]" duration-ms="10547" started-at="2022-09-10T18:15:54 PDT" finished-at="2022-09-10T18:16:04 PDT">
+    <groups>
+      <group name="sanity">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@77846d2c]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_002_Login.test_Login()[pri:0, instance:testCases.TC_002_Login@77846d2c]" name="test_Login" class="testCases.TC_002_Login"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="FireFox test(failed)" duration-ms="10547" started-at="2022-09-10T18:15:54 PDT" finished-at="2022-09-10T18:16:04 PDT">
+      <class name="testCases.TC_002_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Login@77846d2c]" name="setup" is-config="true" duration-ms="6484" started-at="2022-09-10T18:15:54 PDT" finished-at="2022-09-10T18:16:00 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCases.TC_002_Login@77846d2c]" name="test_Login" duration-ms="2958" started-at="2022-09-10T18:16:00 PDT" finished-at="2022-09-10T18:16:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@77846d2c]" name="tearDown" is-config="true" duration-ms="791" started-at="2022-09-10T18:16:03 PDT" finished-at="2022-09-10T18:16:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Login -->
+    </test> <!-- FireFox test(failed) -->
+  </suite> <!-- Failed suite [Open Cart Test suite] -->
+</testng-results>

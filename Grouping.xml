@@ -1,0 +1,21 @@
+<suite name="Open Cart Test suite" Thread-count="2" parallel="tests">
+<listeners>
+<listener class-name="utilities.ExtentReportManager"/>
+</listeners>
+<test name="FireFox test" >
+<groups>
+<include name="regression"/>
+</groups>
+<parameter name = "browser" value="firefox"/>
+<classes>
+ <class name="testCases.TC_001_AccountRegistration"/>
+<class name="testCases.TC_002_Login"/>
+
+<!-- 
+<class name="testCases.TC_003_LoginDDT"/>-->
+</classes>
+</test>
+
+
+
+</suite>
