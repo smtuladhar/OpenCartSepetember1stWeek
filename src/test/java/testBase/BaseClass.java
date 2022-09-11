@@ -21,7 +21,7 @@ import org.testng.annotations.Parameters;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-
+// this is base class
 	public WebDriver driver;
 	public Logger logger;
 	public ResourceBundle rb;
